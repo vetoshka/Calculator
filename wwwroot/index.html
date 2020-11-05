@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="reset.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="test.css" rel="stylesheet">
+</head>
+<!--<script>
+    function add() {
+        form.elements.x.value += " + ";
+    }
+</script>-->
+<body>
+    <div class="beg">
+        <div class="conteiner">
+             <form action="#" enctype="multipart/form-data" method="post" name="culc" class="pixel">
+                <div>
+                    <label><input readonly class="input expression" type="text" placeholder="Expression" value="" id="Expression"> </label>
+                </div>
+                <div>
+                    <output name="res" class="main_outp"></output>
+                    <input type="submit" value="Result" class="result">
+                </div>
+            </form>
+        <div class="grid">
+            <form action="#" enctype="multipart/form-data" method="post" name="butt">
+                <div class="grid">
+                    <input type="button" name="LeftBracket" value="(" id="LeftBracket" class="main_buttom LeftBracket">
+                    <input type="button" id="RightBracket" value=")" class="main_buttom RightBracket">
+                    <input type="button" id="Add" value="+" class="main_buttom Add">
+                    <input type="button" id="Multiplication" value="*" class="main_buttom Multiplication">
+                    <input type="button" id="Division" value="/" class="main_buttom Division">
+                    <input type="button" id="Subtraction" value="-" class="main_buttom Subtraction">
+                    <input type="button" id="Reset" value="C" class="main_buttom Reset">
+                    <input type="button" id="One" value="1" class="main_buttom one">
+                    <input type="button" id="Two" value="2" class="main_buttom two">
+                    <input type="button" id="Three" value="3" class="main_buttom three">
+                    <input type="button" id="Four" value="4" class="main_buttom four">
+                    <input type="button" id="Five" value="5" class="main_buttom five">
+                    <input type="button" id="Six" value="6" class="main_buttom six">
+                    <input type="button" id="Seven" value="7" class="main_buttom seven">
+                    <input type="button" id="Eight" value="8" class="main_buttom eight">
+                    <input type="button" id="Nine" value="9" class="main_buttom nine">
+                    <input type="button" id="Zero" value="0" class="main_buttom zero">
+                </div>
+
+            </form>
+        </div>
+        </div>
+        
+
+        <div class="history_top">
+        <div class="histort_f1">
+            <form action="#" enctype="multipart/form-data" method="post" class="history" name="history">
+                <input type="button" name="History" value="History" class="buttomHistory" id="knopka">
+            </form>
+            <div class="tabl">
+                <table id="hidden" class="table table-condensed table-striped  col-md-6">
+                    <thead>
+                        <tr>
+                            <th>Expression </th>
+                            <th>Result</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <form action="#" enctype="multipart/form-data" method="post" class="search" name="search">
+            <input type="submit" name="Search" value="Search" class="search_button">
+            <label><input class="input_sh" type="number" placeholder="SearchName" name="SearchNumber"> </label>
+            <output name="Outsearch" class="ghek"></output>
+        </form>
+    </div>
+
+    </div>
+
+    <script src="test.js"></script>
+</body>
+</html>

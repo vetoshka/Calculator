@@ -1,0 +1,185 @@
+﻿.beg {
+    letter-spacing: 0.5px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: url("photo_2020-04-15_19-26-56.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+}
+.conteiner {
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1fr, 5);
+    grid-template-rows: repeat(1fr, 4);
+    grid-template-areas: "one two three four zero" "five six seven eight nine" "LeftBracket RightBracket Add Subtraction Division" "Multiplication Reset . . .";
+}
+.main_buttom {
+    margin-left: 10px;
+    margin-top: 10px;
+    line-height: 46px;
+    width: 100px;
+    background: #f04a56;
+    color: white;
+    border-width: 0.5px;
+    font-size: 18pt;
+    border-radius: 10px;
+}
+.result {
+    position: absolute;
+    width: 320px;
+    line-height: 46px;
+    background: #f04a56;
+    color: white;
+    border-width: 0.5px;
+    font-size: 18pt;
+    border-radius: 10px;
+    top: 459px;
+    left: 559px;
+}
+.expression {
+    position: relative;
+    width: 535px;
+    left: 15px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.history_top {
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+.tabl {
+    overflow: auto;
+    max-height: 500px;
+}
+
+table {
+    margin-top: 3px;
+    border: 2px solid black;
+    border-spacing: 20px 10px;
+    border-collapse: separate;
+}
+
+.search {
+    width: 317px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search_button {
+    line-height: 20px;
+    width: 100px;
+    background: #f04a56;
+    color: white;
+    border-width: 0.5px;
+    font-size: 13pt;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.buttomHistory {
+    line-height: 30px;
+    width: 317px;
+    background: #f04a56;
+    color: white;
+    border-width: 0.5px;
+    font-size: 18pt;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.four {
+    grid-area: four;
+}
+
+.four {
+    grid-area: four;
+}
+
+.zero {
+    grid-area: zero;
+}
+
+.five {
+    grid-area: five;
+}
+
+.six {
+    grid-area: six;
+}
+
+.seven {
+    grid-area: seven;
+}
+
+.eight {
+    grid-area: eight;
+}
+
+.nine {
+    grid-area: nine;
+}
+
+.LeftBracket {
+    grid-area: LeftBracket;
+}
+
+.RightBracket {
+    grid-area: RightBracket;
+}
+
+.Add {
+    grid-area: Add;
+}
+
+.Subtraction {
+    grid-area: Subtraction;
+}
+
+.Division {
+    grid-area: Division;
+}
+
+.Multiplication {
+    grid-area: Multiplication;
+}
+
+.Reset {
+    grid-area: Reset;
+}
